@@ -4,6 +4,7 @@ apiVersion: automation.cloudbees.io/v1alpha1
 on:
   schedule:
     - cron: 35 20 * * 1-5
+  workflow_dispatch:
 permissions:
   scm-token-own: read
   scm-token-org: read
