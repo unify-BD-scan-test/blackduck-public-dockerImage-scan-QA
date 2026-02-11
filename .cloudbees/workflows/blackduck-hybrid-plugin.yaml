@@ -23,5 +23,5 @@ jobs:
           server-url: https://blackduck.saas-preprod.beescloud.com
           api-token: ${{ secrets.BD_API_TOKEN }}
           project-name: blackduck-public-dockerImage-scan
-          project-version: 0.0.1
+          project-version: 0.0.3
           detect-cli-params: --detect.tools=CONTAINER_SCAN --detect.container.scan.file.path=./nginx.tar
